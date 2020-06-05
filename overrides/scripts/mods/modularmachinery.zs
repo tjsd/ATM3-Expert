@@ -123,6 +123,10 @@ recipes.addShaped(<modularmachinery:blockenergyinputhatch:4>, [
     [null, <contenttweaker:planetshard>, null]
 ]);
 
+// huge energy input hatch
+recipes.addShapeless(<modularmachinery:blockenergyinputhatch:5>>, [
+    <contenttweaker:corruptedstarmetal>, <modularmachinery:blockenergyinputhatch:4>
+]);
 
 ##########################################################################################
 print("==================== end of mods modularmachinery.zs ====================");
